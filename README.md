@@ -1,23 +1,59 @@
 # install-the-cse4001-docker-assignment
 
-## Assignment (CSE4001): Install the CSE4001 docker container
+## Assignment (CSE4001): Installing the CSE4001 Docker Container
 
-In this assignment, you will install OS/161 on your personal computer so you can have it ready for the following OS/161 assignments. 
+In this assignment, you will set up the **OS/161** operating system on your personal computer using the provided Docker environment. This setup will be used for all subsequent OS/161-related assignments in the course.
+
+Follow the instructions provided in the link below to install and run OS/161:
 
 - [Installing OS/161](https://github.com/eraldoribeiro/UsingCSE4001_OS161)
 
-Make a small change in the kernel. Re-build and boot the kernel so it shows the change that has been made. To make the change, search for the string "Put-your-group-name-here" and replace it with your name. 
+Once OS/161 is running, you must make a small modification to the kernel, rebuild it, and boot the updated kernel to verify your change.
 
-### Deliverables: 
+### Required Kernel Change
 
-- Edit this README.md (markdown file) so it shows a screenshot of your OS/161 running showing the new booting sequence with your name on it. The screenshot file is an image, e.g., png, jpg, gif. The image file must also be uploaded in the repository.
-  
-**Note**: My goal is to quickly see that you completed the tasks asked by the assignment. For example, if everything fits in your screen, you can take a screenshot of the result of all terminals and debugging script side by side as they appear on your computer. 
+1. Search the OS/161 kernel source code for the string:
 
-$${\color{lightgreen}{\text{Add screenshots here!!}}}$$
+   ```
+   Put-your-group-name-here
+   ```
 
-The following image is just an example of how to add an image in markdown. See the raw format of this markdown file.
-To add your actual screenshot, edit this README.md file, and replace the name of the example image file with the name of your screenshot image. Of course, you also need to add the image file to the repository so it is rendered properly by GitHub. 
+2. Replace this string with **your name**.
+
+3. Rebuild the kernel.
+
+4. Boot OS/161 and confirm that the updated boot sequence displays your name.
+
+------
+
+## Deliverables
+
+- Update this `README.md` file to include **a screenshot** showing OS/161 successfully booting with your name visible in the boot output.
+- The screenshot must be:
+  - A valid image format (e.g., `.png`, `.jpg`, or `.gif`)
+  - Uploaded to this repository
+  - Properly displayed in this README using Markdown image syntax
+
+### Screenshot Guidelines
+
+The goal is to quickly and clearly verify that the assignment tasks were completed. Capture a single screenshot that shows the OS/161 boot output with your name visible.
+
+------
+
+## Screenshots
+
+> **Replace the placeholder below with your own screenshot.**
+
+${\color{red}{\text{Add screenshots here!!}}}$
+
+The image below is **only an example** demonstrating how to embed an image in Markdown.
+ To include your actual screenshot:
+
+1. Replace the example image filename with your own screenshot filename.
+2. Ensure the image file is added to this repository so GitHub can render it correctly.
 
 ![Example image](example.png)
+
+
+
 
