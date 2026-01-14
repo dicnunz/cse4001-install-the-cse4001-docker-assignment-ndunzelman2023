@@ -32,7 +32,7 @@ Once OS/161 is running, you must make a small modification to the kernel, rebuil
 - The screenshot must be:
   - A valid image format (e.g., `.png`, `.jpg`, or `.gif`)
   - Uploaded to this repository
-  - Properly displayed in this README using Markdown image syntax
+  - Properly displayed in this README using Markdown image syntax. Once you commit the changes, reload the repository on GitHub to ensure that the screenshot figure renders properly. 
 
 ### Screenshot Guidelines
 
