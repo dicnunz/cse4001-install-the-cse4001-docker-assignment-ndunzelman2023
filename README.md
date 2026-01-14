@@ -55,3 +55,5 @@ The image below is **only an example** demonstrating how to embed an image in Ma
 
 Test
 
+![Example image](screenshot.jpg)
+
